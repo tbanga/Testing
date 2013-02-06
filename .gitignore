@@ -1,0 +1,258 @@
+!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	
+<link rel="shortcut icon" type="image/ico" href="http://static.aeonmagazine.com/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Aeon Magazine RSS feed" href="http://feeds.feedburner.com/AeonMagazineEssays" />
+
+<!-- Included CSS Files -->
+	<link rel="stylesheet" href="http://cdn-static.aeonmagazine.com/stylesheets/foundation.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="http://cdn-static.aeonmagazine.com/stylesheets/min2-app-optimized-2.css?v=44637" type="text/css" media="screen">
+	<link rel="stylesheet" href="http://cdn-static.aeonmagazine.com/stylesheets/min1-print-page.css?v=80899" type="text/css" media="print" />
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,700italic,400italic|Chivo:400,900|Gilda+Display|Quattrocento:400,700' rel='stylesheet' type='text/css'>
+	<meta name="google-site-verification" content="Xk-OM67hnIxGoPUuksiAHpHmfPzVzrfuQ9BQZwejwkM" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+		<script>
+	var $j = jQuery.noConflict();
+$j(document).ready(function(){
+
+	// hide #back-top first
+	$j("#back-top").hide();
+	
+	// fade in #back-top
+	$j(function () {
+		$j(window).scroll(function () {
+			if ($j(this).scrollTop() > 1600) {
+				$j('#back-top').fadeIn();
+			} else {
+				$j('#back-top').fadeOut();
+			}
+		});
+		
+		// scroll body to 0px on click
+		$j('#back-top a.top').click(function () {
+			$j('body,html').animate({
+				scrollTop: 0
+			}, 1600);
+			return false;
+		});
+
+		// scroll body to the bottom on click
+		$j('#back-top a.bottom').click(function () {
+			$j('body,html').animate({
+				scrollTop: $j("#related").offset().top
+			}, 1600);
+			return false;
+		});
+	});
+
+});
+</script>
+	<script src="http://cdn-static.aeonmagazine.com/javascripts/modernizr.foundation.js"></script>
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2683008-33']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+  function recordOutboundLink(link, category, action) {
+    _gat._getTrackerByName()._trackEvent(category, action);
+    setTimeout('document.location = "' + link.href + '"', 100);
+  }
+</script>
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.3.4.4 - http://yoast.com/wordpress/seo/ -->
+<title>Nathaniel Tkacz – Open sesame</title>
+<meta name="description" content="‘Openness’ is the new magic word in politics – but should governments really be run like Wikipedia?"/>
+<link rel="canonical" href="http://www.aeonmagazine.com/world-views/nathaniel-tkacz-open-source-government/" />
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@aeonmag">
+<meta name='twitter:image' content='http://cdn-imgs.aeonmagazine.com/images/2013/01/Bazaar-dhaka-634x397.jpg'>
+<meta name="twitter:description" content="‘Openness’ is the new magic word in politics – but should governments really be run like Wikipedia?">
+<meta property='og:locale' content='en_US'/>
+<meta property='fb:admins' content='766055550'/>
+<meta property='og:title' content='Nathaniel Tkacz – Open sesame'/>
+<meta property='og:description' content='‘Openness’ is the new magic word in politics – but should governments really be run like Wikipedia?'/>
+<meta property='og:url' content='http://www.aeonmagazine.com/world-views/nathaniel-tkacz-open-source-government/'/>
+<meta property='og:site_name' content='Aeon Magazine'/>
+<meta property='og:type' content='article'/>
+<meta property='og:image' content='http://cdn-imgs.aeonmagazine.com/images/2013/01/Bazaar-dhaka-634x397.jpg'/>
+<link rel="original-source" href="" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel='stylesheet' id='wp-email-css'  href='http://www.aeonmagazine.com/admin/wp-content/plugins/wp-email/email-css.css?ver=2.60' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.aeonmagazine.com/admin/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+</head>
+<body id="single" class="world-views">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=152473114829953";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="container" id="top">	
+
+
+<div class="row masthead">
+			<div class="twelve columns">
+				<div class="four columns about-contact-contributors hide-for-small">
+					<ul class="second-nav">
+						<li><a href="http://www.aeonmagazine.com/about/" title="About Aeon" class="about"><span>About</span></a></li>
+						<li><a href="http://www.aeonmagazine.com/contributors/" title="Contributors to Aeon" class="contributors"><span>Contributors</span></a></li>
+						<li><a href="http://www.aeonmagazine.com/audio-podcasts/" title="Aeon Audio and Podcatss" class="audio"><span>Audio</span></a></li>
+					</ul>
+				</div>
+								
+				<div class="four columns">
+					<div class="logo"><a href="http://www.aeonmagazine.com" title="Aeon Magazine"><span>Aeon</span></a></div>
+				</div>
+			
+				<div class="four columns search-social hide-for-small">
+					<div>
+<form action="http://www.aeonmagazine.com/search/" class="search"> 
+<input type="hidden" name="cx" value="017992559979793021082:-i56hxvnnb0" />
+    <input type="hidden" name="cof" value="FORID:10" /> 
+    <input type="hidden" name="ie" value="UTF-8" /> 
+    <input type="text" name="q" size="21" class="twelve" placeholder="Search"  /> 
+</form>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script> 						<ul class="second-nav social">
+							<li><a href="https://twitter.com/#!/aeonmag" title="Twitter" class="twitter" target="_blank"><span>Twitter</span></a></li>
+							<li><a href="http://www.facebook.com/pages/Aeon-Magazine/245875095487574" title="Facebook" class="facebook" target="_blank"><span>Facebook</span></a></li>
+							<li><a href="http://aeonmagazine.tumblr.com/" title="Tumblr" class="tumblr" target="_blank"><span>Tumblr</span></a></li>
+							<li><a href="https://plus.google.com/u/0/108090576541430065837/" title="Google+" class="google-plus" target="_blank"><span>Google+</span></a></li>
+							<li><a href="http://feeds.feedburner.com/AeonMagazineEssays" title="RSS" class="rss" target="_blank"><span>RSS</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="row">
+			<div class="twelve columns hide-for-small">
+				<ul class="nav-bar">
+					<li><a href="http://www.aeonmagazine.com/world-views/" title="World Views" class="world-views"><span>World Views</span></a></li>
+					<li><a href="http://www.aeonmagazine.com/nature-and-cosmos/" title="Nature and Cosmos" class="nature-and-cosmos"><span>Nature and Cosmos</span></a></li>
+					<li><a href="http://www.aeonmagazine.com/being-human/" title="Being Human" class="being-human"><span>Being Human</span></a></li>
+					<li><a href="http://www.aeonmagazine.com/living-together/" title="Living Together" class="living-together"><span>Living Together</span></a></li>
+					<li><a href="http://www.aeonmagazine.com/oceanic-feeling/" title="Oceanic Feeling" class="oceanic-feeling"><span>Oceanic Feeling</span></a></li>
+				</ul>
+			</div>
+		</div>
+		
+				
+		
+
+		<div class="previous1"><a href="http://www.aeonmagazine.com/world-views/edward-fox-obama-javanese/" rel="next"><span>Next</span></a></div>
+		<div class="next1"><a href="http://www.aeonmagazine.com/world-views/brooke-jarvis-gay-marriage/" rel="prev"><span>Previous</span></a></div>
+
+
+
+<div itemscope itemtype="http://schema.org/CreativeWork">
+
+
+<div class="row title">
+			<div class="twelve columns">
+	<h1 class="instapaper_title" itemprop="headline">Open sesame</h1>
+		<p class="single-excerpt" itemprop="description">‘Openness’ is the new magic word in politics – but should governments really be run like Wikipedia?</p>
+			<p class="authordate">
+			
+			<span class="author-display">by <a href="http://www.aeonmagazine.com/author/nathaniel-tkacz" class="authorlink" title="Read more articles by Nathaniel Tkacz"><span itemprop="author">Nathaniel Tkacz</span></a></span> 
+			
+						
+			<span class="article-length" title="This article is 2,100 words">2,100 words</span>
+			
+			
+
+<!-- trigger element. a regular workable link -->
+<a id="laters">Read later or Kindle</a>
+
+<!-- tooltip element -->
+<div class="tooltip">
+
+<!--<div class="later-service"><span class="later-title">Pocket:</span><br /> <em><span style="font-weight:normal;margin-left:10px;">Coming soon.</span></em></div>-->
+
+<div class="later-service"><span class="later-title">Instapaper:</span><br /> <iframe width="78" height="17"
+ style="margin-bottom: -3px; z-index: 1338; border: 0px; background-color: transparent; overflow: hidden;"
+ src="http://www.instapaper.com/e2?url=http://www.aeonmagazine.com/world-views/nathaniel-tkacz-open-source-government/&amp;title=Open+sesame&amp;description=%E2%80%98Openness%E2%80%99+is+the+new+magic+word+in+politics+%E2%80%93+but+should+governments+really+be+run+like+Wikipedia%3F"
+></iframe></div>
+
+<div class="later-service readability"><span class="later-title">Readability:</span><br /> <div class="rdbWrapper" data-show-read-now="0" data-show-read-later="1" data-show-send-to-kindle="1" data-show-print="0" data-show-email="0" data-orientation="1" data-version="1"></div><script type="text/javascript">(function() {var s = document.getElementsByTagName("script")[0],rdb = document.createElement("script"); rdb.type = "text/javascript"; rdb.async = true; rdb.src = document.location.protocol + "//www.readability.com/embed.js"; s.parentNode.insertBefore(rdb, s); })();</script> </div>
+
+
+</div>
+
+</div>
+		</div>
+		
+		<div class="row masthead-image">
+			<div class="twelve columns">
+<img width="960" height="601" src="http://cdn-imgs.aeonmagazine.com/images/2013/01/Bazaar-dhaka.jpg" class="attachment-large wp-post-image" alt="The open source method ‘seemed to resemble a great babbling bazaar of differing agendas and approaches&#039;. Photo by Spencer Platt/Getty" itemprop="image" />
+				<p><span>The open source method ‘seemed to resemble a great babbling bazaar of differing agendas and approaches'. <em>Photo by Spencer Platt/Getty</em></span></p>
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="three columns">
+		 
+			
+				<div class="biog">
+				
+					<p>Nathaniel Tkacz is an assistant professor at the Centre for Interdisciplinary Methodologies at the University of Warwick. He co-edited <em>Critical Point of View: A Wikipedia Reader</em>.</p>
+					
+				
+						
+												<div>
+    <a class="spch-bub-inside hide-for-small" href="#comments-area">
+        <span class="point"></span>  
+       Comments
+	 <em><span class="dsq-postid" rel="6360 http://www.aeonmagazine.com/?p=6360">14</span></em>
+	</a>
+</div>   			
+
+<div class="fb-like" data-href="http://www.aeonmagazine.com/world-views/nathaniel-tkacz-open-source-government/" data-send="false" data-url="http://www.aeonmagazine.com/world-views/nathaniel-tkacz-open-source-government/" data-layout="button_count" data-width="240" data-show-faces="false" data-action="like"></div>
+					
+					<div class="tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-text="Bazaar: the rise and rise of open source politics" data-via="aeonmag">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+<!-- Place this tag where you want the +1 button to render. -->
+<div class="tweet hide-for-small"><div class="g-plusone" data-size="medium"></div></div>
+
+<div class="tweet hide-for-small">
+<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<script type="IN/Share" data-url="http://www.aeonmagazine.com/world-views/nathaniel-tkacz-open-source-government/" data-counter="right"></script></div>
+
+<div class="icons clearfix">
+
+<div class="email-icon hide-for-small"><a href="http://www.aeonmagazine.com/world-views/nathaniel-tkacz-open-source-government/emailpopup/" onclick="email_popup(this.href); return false;"  title="" rel="nofollow"><img class="WP-EmailIcon" src="http://www.aeonmagazine.com/admin/wp-content/plugins/wp-email/images/email_famfamfam.png" alt="" title="" style="border: 0px;" /></a>
+</div>
+
+<div class="print-icon hide-for-small"><a href="javascript:window.print()"></a></div>
+</div>
+
+				</div>
+					</div>
+			
+			<div class="eight columns">
+				<div class="content instapaper_body yes" itemprop="text">
